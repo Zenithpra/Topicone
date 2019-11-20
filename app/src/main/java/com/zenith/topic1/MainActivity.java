@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
                 else if (rdoDiv.isChecked()){
                     result = first / second;
                 }
+
+
                 Toast.makeText(MainActivity.this, "The Result is "  + result, Toast.LENGTH_SHORT).show();
             }
         });
